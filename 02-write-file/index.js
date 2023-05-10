@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 fs.writeFile(
-    path.join(__dirname, '02-write-file', 'text.txt'),
+    path.join(__dirname, 'text.txt'),
     '',
     (err) => {
         if (err) throw err;
